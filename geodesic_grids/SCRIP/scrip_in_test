@@ -1,0 +1,16 @@
+&remap_inputs
+    num_maps = 2
+    grid1_file = 'grids/csu_72x44.global.nc'
+    grid2_file = 'grids/C02562.global.nc'
+    interp_file1 = 'remap/rmp_csu_72x44_to_C02562_conserv.nc'
+    interp_file2 = 'remap/rmp_C02562_to_csu_72x44_conserv.nc'
+    map1_name = 'csu 72x44 to C02562 Conservative Mapping'
+    map2_name = 'C02562 to csu 72x44 Conservative Mapping'
+    map_method = 'conservative'
+    normalize_opt = 'frac'
+    output_opt = 'scrip'
+    restrict_type = 'latitude'
+    num_srch_bins = 90 
+    luse_grid1_area = .false.
+    luse_grid2_area = .false.
+/

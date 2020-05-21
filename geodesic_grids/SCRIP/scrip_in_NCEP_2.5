@@ -1,0 +1,16 @@
+&remap_inputs
+    num_maps = 2
+    grid1_file = 'grids/NCEP_2.5deg_grid.nc'
+    grid2_file = 'grids/C10242.global.nc'
+    interp_file1 = 'remap/rmp_NCEP_2.5deg_to_C10242_conserv.nc'
+    interp_file2 = 'remap/rmp_C10242_to_NCEP_2.5deg_conserv.nc'
+    map1_name = 'NCEP 2.5deg to C10242 Conservative Mapping'
+    map2_name = 'C10242 to NCEP 2.5deg Conservative Mapping'
+    map_method = 'conservative'
+    normalize_opt = 'frac'
+    output_opt = 'scrip'
+    restrict_type = 'latitude'
+    num_srch_bins = 90 
+    luse_grid1_area = .false.
+    luse_grid2_area = .false.
+/

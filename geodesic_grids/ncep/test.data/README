@@ -1,0 +1,19 @@
+-- 2-d input (from getfield.ncl)
+air.sig995.19960118.nc
+  air.sig995.19960118.regrid.nc
+air.20000629.700.nc
+  air.20000629.700.regrid.nc
+air.20000927.500.nc
+  air.20000927.500.regrid.nc
+uwnd.19960118.700.nc
+  uwnd.19960118.700.regrid.nc
+
+-- 3-d input (from getlevel.ncl)
+air.1996.daily.700.nc
+air.2000.daily.700.nc
+  air.1996.daily.700.regrid.nc
+  air.2000.daily.700.regrid.nc
+
+-- 4-d input (from ncep.daily)
+air.sig995.1993.daily.regrid.nc
+air.1995.daily.700.regrid.nc

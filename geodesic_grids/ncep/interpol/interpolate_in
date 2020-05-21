@@ -1,0 +1,39 @@
+&interpolate_in
+    remapfile = "../../SCRIP/remap/rmp_NCEP_2.5deg_to_C10242_conserv.nc"
+!
+! multi-day, multi-level files
+!    datafile = "/local/model-i/dbr/ncep/ncep.daily/air.1995.daily.nc"
+!    outfile = "../test.data/air.1995.daily.700.regrid.nc"
+!    varname = "air"
+!    level = 700
+!
+! multi-day, single level files
+!    datafile = "/local/model-i/dbr/ncep/ncep.daily/air.sig995.1993.daily.nc"
+!    outfile = "../test.data/air.sig995.1993.daily.regrid.nc"
+!    varname = "air"
+!
+    datafile = "../test.data/air.2000.daily.700.nc"
+    outfile = "../test.data/air.2000.daily.700.regrid.nc"
+    varname = "air"
+!
+!    datafile = "../test.data/air.1996.daily.700.nc"
+!    outfile = "../test.data/air.1996.daily.700.regrid.nc"
+!    varname = "air"
+!
+! single day, single level files
+!    datafile = "../test.data/air.20000629.700.nc"
+!    outfile = "../test.data/air.20000629.700.regrid.nc"
+!    varname = "air"
+!
+!    datafile = "../test.data/air.20000927.500.nc"
+!    outfile = "../test.data/air.20000927.500.regrid.nc"
+!    varname = "air"
+!
+!    datafile = "../test.data/air.sig995.19960118.nc"
+!    outfile = "../test.data/air.sig995.19960118.regrid.nc"
+!    varname = "air"
+!
+!    outfile = "../test.data/uwnd.19960118.700.regrid.nc"
+!    datafile = "../test.data/uwnd.19960118.700.nc"
+!    varname = "uwnd"
+/

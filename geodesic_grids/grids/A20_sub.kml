@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <Style id="iconstyle1">
+    <IconStyle>
+      <Icon id="Icon_ID1">
+        <href>http://maps.google.com/mapfiles/kml/shapes/target.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <name>Geodesic grid points</name> 
+<Placemark>
+  <name>Gridpoint 1</name>
+  <description>
+  Geodesic gridpoint 1
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  180.00,  -86.62,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 2</name>
+  <description>
+  Geodesic gridpoint 2
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    0.00,  -69.87,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 3</name>
+  <description>
+  Geodesic gridpoint 3
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   60.18,  -69.80,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 4</name>
+  <description>
+  Geodesic gridpoint 4
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  118.72,  -70.93,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 5</name>
+  <description>
+  Geodesic gridpoint 5
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  176.40,  -71.16,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 6</name>
+  <description>
+  Geodesic gridpoint 6
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-125.62,  -70.47,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 7</name>
+  <description>
+  Geodesic gridpoint 7
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-66.32,  -68.95,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 8</name>
+  <description>
+  Geodesic gridpoint 8
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-11.82,  -69.80,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 9</name>
+  <description>
+  Geodesic gridpoint 9
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    0.00,  -50.58,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 10</name>
+  <description>
+  Geodesic gridpoint 10
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   31.10,  -49.41,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 11</name>
+  <description>
+  Geodesic gridpoint 11
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   62.35,  -50.85,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 12</name>
+  <description>
+  Geodesic gridpoint 12
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   93.40,  -48.75,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 13</name>
+  <description>
+  Geodesic gridpoint 13
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  124.98,  -50.38,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 14</name>
+  <description>
+  Geodesic gridpoint 14
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  156.46,  -49.44,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 15</name>
+  <description>
+  Geodesic gridpoint 15
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-173.15,  -51.22,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 16</name>
+  <description>
+  Geodesic gridpoint 16
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-140.86,  -49.45,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 17</name>
+  <description>
+  Geodesic gridpoint 17
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-111.43,  -51.34,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 18</name>
+  <description>
+  Geodesic gridpoint 18
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-78.36,  -50.19,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 19</name>
+  <description>
+  Geodesic gridpoint 19
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-49.63,  -50.74,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 20</name>
+  <description>
+  Geodesic gridpoint 20
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-19.02,  -50.38,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 21</name>
+  <description>
+  Geodesic gridpoint 21
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    0.00,  -30.70,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 22</name>
+  <description>
+  Geodesic gridpoint 22
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   23.68,  -29.07,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 23</name>
+  <description>
+  Geodesic gridpoint 23
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   46.08,  -29.27,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 24</name>
+  <description>
+  Geodesic gridpoint 24
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   69.73,  -29.28,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 25</name>
+  <description>
+  Geodesic gridpoint 25
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   92.20,  -30.74,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 26</name>
+  <description>
+  Geodesic gridpoint 26
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  115.84,  -29.43,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 27</name>
+  <description>
+  Geodesic gridpoint 27
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  139.44,  -29.88,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 28</name>
+  <description>
+  Geodesic gridpoint 28
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  161.94,  -30.44,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 29</name>
+  <description>
+  Geodesic gridpoint 29
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-174.4,  -29.55,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 30</name>
+  <description>
+  Geodesic gridpoint 30
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-150.86,  -30.43,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 31</name>
+  <description>
+  Geodesic gridpoint 31
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-128.31,  -30.10,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 32</name>
+  <description>
+  Geodesic gridpoint 32
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-106.88,  -29.67,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 33</name>
+  <description>
+  Geodesic gridpoint 33
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-83.18,  -29.29,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 34</name>
+  <description>
+  Geodesic gridpoint 34
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-58.57,  -29.71,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 35</name>
+  <description>
+  Geodesic gridpoint 35
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-37.12,  -29.67,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 36</name>
+  <description>
+  Geodesic gridpoint 36
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-13.43,  -29.71,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 37</name>
+  <description>
+  Geodesic gridpoint 37
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    1.20,  -11.23,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 38</name>
+  <description>
+  Geodesic gridpoint 38
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   19.51,   -9.16,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 39</name>
+  <description>
+  Geodesic gridpoint 39
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   41.49,  -10.08,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 40</name>
+  <description>
+  Geodesic gridpoint 40
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   60.15,   -9.84,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 41</name>
+  <description>
+  Geodesic gridpoint 41
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   81.48,   -9.71,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 42</name>
+  <description>
+  Geodesic gridpoint 42
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  102.51,  -10.08,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 43</name>
+  <description>
+  Geodesic gridpoint 43
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  122.29,   -9.42,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 44</name>
+  <description>
+  Geodesic gridpoint 44
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  141.63,   -9.51,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 45</name>
+  <description>
+  Geodesic gridpoint 45
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  162.45,  -10.88,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 46</name>
+  <description>
+  Geodesic gridpoint 46
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-176.71,  -10.15,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 47</name>
+  <description>
+  Geodesic gridpoint 47
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-155.85,   -9.84,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 48</name>
+  <description>
+  Geodesic gridpoint 48
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-136.89,   -9.62,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 49</name>
+  <description>
+  Geodesic gridpoint 49
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-115.68,   -9.97,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 50</name>
+  <description>
+  Geodesic gridpoint 50
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-95.92,   -9.64,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 51</name>
+  <description>
+  Geodesic gridpoint 51
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-76.74,   -9.55,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 52</name>
+  <description>
+  Geodesic gridpoint 52
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-55.75,  -10.56,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 53</name>
+  <description>
+  Geodesic gridpoint 53
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-34.9,  -10.19,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 54</name>
+  <description>
+  Geodesic gridpoint 54
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-14.05,  -10.22,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 55</name>
+  <description>
+  Geodesic gridpoint 55
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    1.10,   10.19,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 56</name>
+  <description>
+  Geodesic gridpoint 56
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   19.75,   10.56,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 57</name>
+  <description>
+  Geodesic gridpoint 57
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   40.74,    9.55,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 58</name>
+  <description>
+  Geodesic gridpoint 58
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   59.92,    9.64,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 59</name>
+  <description>
+  Geodesic gridpoint 59
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   81.88,    9.82,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 60</name>
+  <description>
+  Geodesic gridpoint 60
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  100.89,    9.62,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 61</name>
+  <description>
+  Geodesic gridpoint 61
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  122.05,   10.22,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 62</name>
+  <description>
+  Geodesic gridpoint 62
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  142.90,   10.19,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 63</name>
+  <description>
+  Geodesic gridpoint 63
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  162.70,    8.87,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 64</name>
+  <description>
+  Geodesic gridpoint 64
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-177.63,    9.51,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 65</name>
+  <description>
+  Geodesic gridpoint 65
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-156.08,    9.64,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 66</name>
+  <description>
+  Geodesic gridpoint 66
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-136.32,    9.97,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 67</name>
+  <description>
+  Geodesic gridpoint 67
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-117.48,    9.71,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 68</name>
+  <description>
+  Geodesic gridpoint 68
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-96.15,    9.84,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 69</name>
+  <description>
+  Geodesic gridpoint 69
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-75.29,   10.15,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 70</name>
+  <description>
+  Geodesic gridpoint 70
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-55.51,    9.16,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 71</name>
+  <description>
+  Geodesic gridpoint 71
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-36,    9.49,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 72</name>
+  <description>
+  Geodesic gridpoint 72
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-14.29,    9.42,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 73</name>
+  <description>
+  Geodesic gridpoint 73
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    1.12,   29.67,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 74</name>
+  <description>
+  Geodesic gridpoint 74
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   22.57,   29.71,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 75</name>
+  <description>
+  Geodesic gridpoint 75
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   47.18,   29.29,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 76</name>
+  <description>
+  Geodesic gridpoint 76
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   68.64,   29.63,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 77</name>
+  <description>
+  Geodesic gridpoint 77
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   92.31,   30.10,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 78</name>
+  <description>
+  Geodesic gridpoint 78
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  114.86,   30.43,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 79</name>
+  <description>
+  Geodesic gridpoint 79
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  138.40,   29.55,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 80</name>
+  <description>
+  Geodesic gridpoint 80
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  162.06,   30.44,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 81</name>
+  <description>
+  Geodesic gridpoint 81
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-175.44,   29.88,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 82</name>
+  <description>
+  Geodesic gridpoint 82
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-151.84,   29.43,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 83</name>
+  <description>
+  Geodesic gridpoint 83
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-128.2,   30.74,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 84</name>
+  <description>
+  Geodesic gridpoint 84
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-105.73,   29.28,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 85</name>
+  <description>
+  Geodesic gridpoint 85
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-82.08,   29.27,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 86</name>
+  <description>
+  Geodesic gridpoint 86
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-59.68,   29.07,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 87</name>
+  <description>
+  Geodesic gridpoint 87
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-36,   30.70,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 88</name>
+  <description>
+  Geodesic gridpoint 88
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-13.55,   31.00,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 89</name>
+  <description>
+  Geodesic gridpoint 89
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    1.63,   49.48,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 90</name>
+  <description>
+  Geodesic gridpoint 90
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   29.64,   50.19,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 91</name>
+  <description>
+  Geodesic gridpoint 91
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   61.75,   51.02,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 92</name>
+  <description>
+  Geodesic gridpoint 92
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   92.29,   49.95,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 93</name>
+  <description>
+  Geodesic gridpoint 93
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  123.71,   49.95,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 94</name>
+  <description>
+  Geodesic gridpoint 94
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  155.39,   49.04,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 95</name>
+  <description>
+  Geodesic gridpoint 95
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-173.64,   50.19,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 96</name>
+  <description>
+  Geodesic gridpoint 96
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-142.37,   49.48,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 97</name>
+  <description>
+  Geodesic gridpoint 97
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-111.14,   49.45,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 98</name>
+  <description>
+  Geodesic gridpoint 98
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-80.15,   49.26,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 99</name>
+  <description>
+  Geodesic gridpoint 99
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-48.46,   49.44,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 100</name>
+  <description>
+  Geodesic gridpoint 100
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-16.98,   50.38,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 101</name>
+  <description>
+  Geodesic gridpoint 101
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>    3.60,   71.16,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 102</name>
+  <description>
+  Geodesic gridpoint 102
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>   59.00,   69.03,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 103</name>
+  <description>
+  Geodesic gridpoint 103
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  118.82,   67.84,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 104</name>
+  <description>
+  Geodesic gridpoint 104
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  174.32,   68.95,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 105</name>
+  <description>
+  Geodesic gridpoint 105
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-126.38,   70.47,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 106</name>
+  <description>
+  Geodesic gridpoint 106
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-68.4,   71.16,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 107</name>
+  <description>
+  Geodesic gridpoint 107
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>-10.72,   70.93,0</coordinates>
+  </Point>
+</Placemark>
+<Placemark>
+  <name>Gridpoint 108</name>
+  <description>
+  Geodesic gridpoint 108
+  </description>
+  <styleUrl>#iconstyle1</styleUrl>
+  <Point>
+    <coordinates>  180.00,   90.00,0</coordinates>
+  </Point>
+</Placemark>
+</Document>
+</kml>

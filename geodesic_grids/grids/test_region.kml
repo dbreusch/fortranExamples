@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+  <name>Test Region</name> 
+  <Placemark>
+    <name>Box around Test Region</name>
+    <Region>
+      <LatLonAltBox>
+        <north>60</north><south>20</south>
+        <east>0</east><west>-30</west>
+      </LatLonAltBox>
+<!--
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>1024</maxLodPixels>
+      </Lod>
+-->
+    </Region>
+    <LineString>
+<!--
+      <extrude>1</extrude>
+      <altitudeMode>absolute</altitudeMode>
+-->
+      <tessellate>1</tessellate>
+      <coordinates>
+       -30,60
+       0,60
+       0,20
+       -30,20
+       -30,60
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

@@ -1,0 +1,45 @@
+# create Placemarks from an input text file
+# note: the "1" on the last line is needed to make "require" work
+sub make_pm {
+  my $ifn = shift( @_ );
+  my $iconstyle = shift( @_ );
+  printf STDOUT "  <name>$ifn</name>\n";
+
+  my ($b, $lat, $lon, $sitenum, @a);
+
+  open( IFILE, "< geo_ctr_lat_f.txt");
+  @lats = <IFILE>;
+  close(IFILE);
+  open( IFILE, "< geo_ctr_lon_f.txt");
+  @lons = <IFILE>;
+  close(IFILE);
+  open( IFILE, "< $ifn");
+  @ids = <IFILE>;
+  close(IFILE);
+
+  $gpt=1;
+  foreach $id (@ids) {
+    $label = sprintf( "%d", $id );
+    $lat = $lats[$id];
+    chomp($lat);
+    $lon = $lons[$id];
+    if ($lon > 180) {
+      $lon -= 360;
+      }
+    chomp($lon);
+    printf STDOUT "  <Placemark>\n";
+    printf STDOUT "    <name>Gridpoint $gpt</name>\n";
+    printf STDOUT "    <description>\n";
+    printf STDOUT "    Geodesic gridpoint $label\n";
+    printf STDOUT "    </description>\n";
+    printf STDOUT "    <styleUrl>#$iconstyle</styleUrl>\n";
+    printf STDOUT "    <Point>\n";
+    printf STDOUT "      <coordinates>$lon,$lat,0</coordinates>\n";
+    printf STDOUT "    </Point>\n";
+    printf STDOUT "  </Placemark>\n";
+    $gpt++;
+    }
+  #close(OFILE);
+  return 0;
+  }
+  1

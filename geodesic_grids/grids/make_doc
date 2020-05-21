@@ -1,0 +1,30 @@
+#!/usr/bin/perl
+# create the full kml document file
+require "Make_KML.pm";
+
+open( IFILE, "< geo_ctr_lat_f.txt");
+@lats = <IFILE>;
+close(IFILE);
+open( IFILE, "< geo_ctr_lon_f.txt");
+@lons = <IFILE>;
+close(IFILE);
+
+Make_KML::make_hdr();
+
+#printf STDOUT "  <name>Geodesic grid points</name>\n";
+printf STDOUT "  <name>All geodesic grid points</name>\n";
+printf STDOUT "  <LookAt id=\"view1\">\n";
+printf STDOUT "    <latitude>0</latitude>>\n";
+printf STDOUT "    <altitude>12000000</altitude>>\n";
+printf STDOUT "    <longitude>-180</longitude>>\n";
+printf STDOUT "  </LookAt>\n";
+
+#Make_KML::make_pm("sub_20deg.txt", "iconstyle1", 10, \@lats, \@lons, -1, 450 );
+#Make_KML::make_pm("sub_10deg.txt", "iconstyle1", 6.67, \@lats, \@lons, -1, 450 );
+#Make_KML::make_pm("sub_05deg.txt", "iconstyle1", 3.33, \@lats, \@lons, 150, 450 );
+#Make_KML::make_pm("sub_02_5deg.txt", "iconstyle1", 1.67, \@lats, \@lons, 150, 450 );
+#Make_KML::make_pm("sub_all.txt", "iconstyle1", 0.05, \@lats, \@lons, 10 );
+Make_KML::make_pm("sub_all.txt", "iconstyle1", 2, \@lats, \@lons, -1 );
+
+printf STDOUT "</Document>\n";
+printf STDOUT "</kml>\n";
