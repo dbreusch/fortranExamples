@@ -1,0 +1,49 @@
+#!/usr/bin/env python
+
+import pdb, sys, os, argparse
+
+
+# set up arguments
+parser = argparse.ArgumentParser( description = "Run interp_days" )
+
+parser.add_argument( "-y","--year", help="year", type=int, nargs="?" )
+parser.add_argument( "-H","--hemi", help="hemisphere", default="n", nargs="?", choices=["n","s"] )
+
+# parse the command line
+args = parser.parse_args()
+
+# assign args to variables
+hemi = args.hemi
+yr = args.year
+if yr is None:
+  print "Must specify year!"
+  sys.exit()
+else:
+  yrs = str(yr)
+
+# define year groups
+yg1 = [ 1978 ]
+yg2 = range( 1979, 1987 )
+yg3 = [ 1987 ]
+
+# define months to process
+if yr in yg1:
+  mg = [ 11, 12 ]
+else:
+  if yr in yg2:
+    mg = range( 1, 13 )
+  else:
+    if yr in yg3:
+      mg = range( 1, 8 )
+    else:
+      print "Year outside range needing interpolation"
+      sys.exit()
+print "Year: "+yrs
+print "Months: "+str(mg)
+
+# run interp script
+for m in mg:
+  cmd = "interp_days -y "+yrs+" -m "+str(m)+" -H "+hemi
+  print cmd
+  os.system( cmd )
+#pdb.set_trace()

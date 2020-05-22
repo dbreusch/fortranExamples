@@ -1,0 +1,29 @@
+&rundata
+hemi = 's',
+ni = 316,
+nj = 332,
+truelat1 = -70.0,
+xlonc = 0,
+startlat = -41.45,
+startlon = 225.0,
+startloc = 'SWCORNER',
+/
+
+&fndata
+fnyy = '1997',
+fnmm = '01',
+fndd = '12',
+fnsensor = 'f13',
+fnversion = 'v03',
+ndyy = '1997',
+ndmm = '01',
+nddd = '13',
+ndsensor = 'f13',
+ndversion = 'v03',
+/
+
+&dirnames
+idir1 = '/glade/work/dbr/data/seaice/bin_sh/1997',
+idir2 = '/glade/work/dbr/data/seaice/bin_sh/1997',
+odir = '/glade/work/dbr/data/seaice/intermed_sh/1997/19970112',
+/

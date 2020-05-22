@@ -1,0 +1,61 @@
+#!/usr/bin/env python
+
+import pdb, sys, os, math, glob, calendar, argparse
+from datetime import time
+from datetime import date
+from datetime import timedelta
+
+# set up arguments
+parser = argparse.ArgumentParser( description = "Run interp_days.ncl" )
+
+parser.add_argument( "-y","--year", help="year", type=int, nargs="?" )
+parser.add_argument( "-m","--month", help="month", type=int, nargs="?" )
+parser.add_argument( "-H","--hemi", help="hemisphere", default="n", nargs="?", choices=["n","s"] )
+
+# parse the command line
+args = parser.parse_args()
+
+# assign args to variables
+hemi = args.hemi
+y1 = args.year
+y1s = str( y1 )
+m1 = args.month
+m1s = "%02d" % m1
+
+seaice_root_dir = "/glade/work/dbr/data/seaice"
+data_root_dir = seaice_root_dir+"/bin_"+hemi+"h"
+day_inc = timedelta( days=1 )
+
+os.chdir( data_root_dir )
+
+os.chdir( y1s )
+
+filepatt = '??_'+y1s+m1s+'??_*'
+files = sorted( glob.glob( filepatt ) )
+
+if len(files) > 0:
+  firstfn = files[0]
+  ll = firstfn.split('_')[1]
+  firstdate1 = date( int(ll[0:4]), int(ll[4:6]), int(ll[6:8]) )
+  firstdate2 = firstdate1 + day_inc
+  firstdate3 = firstdate2 + day_inc
+  print "First day"
+  print firstdate1, firstdate2, firstdate3
+
+  lastfn = files[-1]
+  ll = lastfn.split('_')[1]
+  lastdate1 = date( int(ll[0:4]), int(ll[4:6]), int(ll[6:8]) )
+  lastdate2 = lastdate1 + day_inc
+  lastdate3 = lastdate2 + day_inc
+  print "Last day"
+  print lastdate1, lastdate2, lastdate3
+
+  for fn in files:
+    ll = fn.split('_')[1]
+    cmd = "ncl 'day1=\""+ll+"\"' 'hemi=\""+hemi+"h\"' "+seaice_root_dir+"/interp_days/interp_days.ncl"
+  #  print cmd
+  #  pdb.set_trace()
+    os.system( cmd )
+else:
+  print "File list empty!"
+  print filepatt

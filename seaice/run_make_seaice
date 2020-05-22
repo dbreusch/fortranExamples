@@ -1,0 +1,43 @@
+#!/usr/bin/env python
+# make_seaice:
+# process sea ice data
+# command template:
+# make_seaice 11 30 1988 32 > & out/1988-Dec.out
+
+import pdb, os, calendar, argparse
+
+# set up arguments
+parser = argparse.ArgumentParser( description = "Run make_seaice for multiple years/months" )
+
+parser.add_argument( "-b","--year1", help="starting year", type=int, nargs="?" )
+parser.add_argument( "-e","--year2", help="ending year", type=int, nargs="?" )
+parser.add_argument( "-H","--hemi", help="hemisphere", default="n", nargs="?", choices=["n","s"] )
+
+# parse the command line
+args = parser.parse_args()
+
+# assign args to variables
+hemi = args.hemi
+y1 = args.year1
+y2 = args.year2
+
+yrs = range( y1, y2+1 )
+mons = range( 1, 13 )
+
+for yy in yrs:
+  for mm in mons:
+    ndays = calendar.monthrange( yy, mm )[1]
+    mname = calendar.month_abbr[ mm ]
+    print str(yy)+" "+str(mm)+" "+mname+" "+str(ndays)
+
+    logdir = "out_%sh/%04d" % (hemi, yy)
+    logfile = "%s/%04d-%s.out" % (logdir, yy, mname)
+#    tpl = "make_seaice %02d 01 %04d %02d >& %s %sh"
+#    cmd = tpl % (mm, yy, ndays, logfile, hemi)
+    cmd = "make_seaice %02d 01 %04d %02d %s >& %s" % (mm, yy, ndays, hemi, logfile)
+#    cmd = "make_seaice %02d 01 %04d %02d %s" % (mm, yy, ndays, hemi)
+    print cmd
+#    pdb.set_trace()
+    if not os.path.exists( logdir ):
+      os.makedirs( logdir )
+    os.system( cmd )
